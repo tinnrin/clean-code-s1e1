@@ -11,16 +11,16 @@
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section class="section task-add" id="topSectionForAddingElementToList">
+      <section class="section task-add">
         <h3 class="section__title task-add__title">Add Item</h3>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="task__input input input_text" type="text">
+        <div class="task-input-wrapper">
+          <input id="task-input_add" class="task-add__input input input_text" type="text">
           <button class="btn">Add</button>
         </div>
       </section>
-      <section>
+      <section class="section">
         <h3 class="section__title">Todo</h3>
-        <ul class="task-list" id="incompleteTasks">
+        <ul class="task-list" id="task-list_todo">
           <li class="task">
             <input class="task__input input task__input_checkbox" type="checkbox">
             <label class="task__name">Pay Bills</label>
@@ -41,9 +41,9 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h3 class="section__title">Completed</h3>
-        <ul class="task-list task-list_completed" id="completed-tasks">
+        <ul class="task-list task-list_completed" id="task-list_done">
           <li class="task task_edit">
             <input class="task__input input task__input_checkbox" type="checkbox" checked>
             <label class="task__name">See the Doctor</label>

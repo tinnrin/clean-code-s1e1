@@ -13,7 +13,7 @@
 .header__img {
   width: 100%;
 }
-.header .header__link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -31,7 +31,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-input-wrapper {
   display: flex;
 }
 .task-list {
