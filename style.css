@@ -1,49 +1,63 @@
 /* Basic Style */
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-.header { text-align: center;
+
+  .header {
+    text-align: center;
+  }
+
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__name, .input_text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-input-wrapper {
   display: flex;
 }
+
 .task-list {
   margin: 0;
   padding: 0px;
 }
+
 .task {
   list-style: none;
 }
+
 .input, .btn{
   outline: none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -53,10 +67,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .section__title {
   color: #333;
   font-weight: 700;
@@ -66,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input_text {
   margin: 0;
   font-size: 18px;
@@ -78,20 +96,24 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input_text:focus {
   color: #333;
 }
 
 /* New Task */
+
 .task-add__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .task-add .input_text {
   width: 318px;
 }
 
 /* Task list */
+
 .task {
   overflow: hidden;
   padding: 20px 0;
@@ -101,6 +123,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task__input,
 .task__name,
 .task__btn,
@@ -111,31 +134,37 @@
 .task__input_checkbox {
   margin: 0 10px;
 }
+
 .task__name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .input_text {
   width: 226px;
 }
+
 .btn__img_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn__img_delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .task-list_completed .task__name {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .task .input_text {
   display: none;
 }
